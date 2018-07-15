@@ -1,0 +1,23 @@
+.header__container{
+    height: 120px;
+//menu
+    a{
+        color: $regularFontColor;
+    }
+    //nav
+    .header-nav{
+        position: absolute;
+        top: 66px;
+    }
+    //serach box
+    .header-search{
+        input{
+            border: 1px solid #b8c7d0;
+            height: 32px;
+            width: 172px;
+        }
+    }
+
+    
+}
+    

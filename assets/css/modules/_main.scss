@@ -1,0 +1,18 @@
+body{
+    font-family: $regularFont;
+    font-size: $regularFontSize;
+    color: $regularFontColor;
+}
+
+main{
+    border-top: 4px solid $primaryColor;
+}
+
+.contents__container{
+    ul{
+        padding: 0px;
+        li{
+            list-style-type: none;
+        }
+    }
+}

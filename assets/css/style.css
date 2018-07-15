@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'vazir';
+  src: url("../fonts/vazir/Vazir-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/vazir/Vazir-Medium.woff2") format("woff2"), url("../fonts/vazir/Vazir-Medium/webfont.woff") format("woff"), url("../fonts/vazir/Vazir-Medium.ttf") format("truetype"), url("../fonts/vazir/Vazir-Medium.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
+.header__container {
+  height: 120px;
+}
+
+.header__container a {
+  color: #3e3e3e;
+}
+
+.header__container .header-nav {
+  position: absolute;
+  top: 66px;
+}
+
+.header__container .header-search input {
+  border: 1px solid #b8c7d0;
+  height: 32px;
+  width: 172px;
+}
+
+body {
+  font-family: vazir, Tahoma, Arial;
+  font-size: 14px;
+  color: #3e3e3e;
+}
+
+main {
+  border-top: 4px solid #87bd25;
+}
+
+.contents__container ul {
+  padding: 0px;
+}
+
+.contents__container ul li {
+  list-style-type: none;
+}
+
+body {
+  direction: rtl;
+}
+
+@media (min-width: 768px) {
+  .contents__container ul li {
+    float: right;
+  }
+}
+/*# sourceMappingURL=style.css.map */
