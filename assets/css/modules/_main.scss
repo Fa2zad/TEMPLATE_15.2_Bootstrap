@@ -3,6 +3,18 @@ body{
     font-size: $regularFontSize;
     color: $regularFontColor;
 }
+.slider__container{
+    .slider-arrows{
+        visibility: hidden;
+    }
+
+    &:hover {
+        .slider-arrows{
+            visibility: visible;
+        }
+    }
+
+}
 
 main{
     border-top: 4px solid $primaryColor;
@@ -24,10 +36,12 @@ main{
 }
 
 .contents__container{
+    padding-top: 30px;
     ul{
         padding: 0px;
         li{
             list-style-type: none;
+            padding: 5px;
             img{
                 width: 100%;
                 
@@ -84,6 +98,15 @@ main{
         }
 
 
+    }
+
+
+    .content-title{
+        line-height: 36px;
+        padding-top: 5px;
+        a{
+            color: $regularFontColor;
+        }
     }
 }
 
