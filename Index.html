@@ -3,11 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>پژواک</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
 </head>
 <body>
     <!-- header -->
@@ -17,22 +16,24 @@
                 <nav class="navbar">
                     <div class="container-fluid">
                     
-                    <!-- BRAND -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#alignment-example" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a href="#"><img src="assets/images/logo.png" alt=""></a>
+                    <!-- LOGO -->
+                    <div class="logo__container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#alignment-example" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#"><img src="assets/images/logo.png" alt=""></a>
+                        </div>
                     </div>
                     
                     <!-- COLLAPSIBLE NAVBAR -->
                     <div class="collapse navbar-collapse" id="alignment-example">
                     
                     <!-- Links -->
-                    <div class="header-nav">
+                    <div class="nav__container">
                         <ul class="nav navbar-nav">
                             <li><a href="#">صفحه نخست</a></li>
                             <li><a href="#">وبلاگ</a></li>
@@ -47,14 +48,14 @@
                     </div>
                     
                     <!-- Search -->
-                    <div class="header-search">
-                    <form class="navbar-form navbar-right" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="جستجو...">
-                            <img src="assets/images/srch.png" alt="">
-                        </div>
-                        
-                    </form>
+                    <div class="search__container">
+                        <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="جستجو...">
+                                <img src="assets/images/srch.png" alt="">
+                            </div>
+                            
+                        </form>
                     </div>
                     
                     </div>
@@ -110,25 +111,86 @@
             <div class="container">
                 <ul class="row">
                     <li class="col-sm-3">
-                        <a href="#"><img src="assets/images/bnr.png" alt=""></a>
+                        <div class="content-imgs">
+                            <img class="img-responsive" src="assets/images/camera.png" alt="دوربین های مداربسته">
+                            <img class="img-responsive" src="assets/images/camera-hover.png" alt="دوربین های مداربسته" >
+                        </div>
+                        <div class="content-title">دوربین های مداربسته</div>
                     </li>
-                    <li class="col-sm-3">col 2</li>
-                    <li class="col-sm-3">col 3</li>
-                    <li class="col-sm-3">col 4</li>
-                    <li class="col-sm-3">col 5</li>
-                    <li class="col-sm-3">col 6</li>
-                    <li class="col-sm-3">col 7</li>
-                    <li class="col-sm-3">col 8</li>
+                    <li class="col-sm-3">
+                            <div class="content-imgs">
+                                <img class="img-responsive" src="assets/images/network.png" alt="دوربین های مداربسته">
+                                <img class="img-responsive" src="assets/images/network-hover.png" alt="دوربین های مداربسته" >
+                            </div>
+                            <div class="content-title">دوربین های مداربسته</div>
+                    </li>
+                    <li class="col-sm-3">
+                            <div class="content-imgs">
+                                <img class="img-responsive" src="assets/images/fire.png" alt="دوربین های مداربسته">
+                                <img class="img-responsive" src="assets/images/fire-hover.png" alt="دوربین های مداربسته" >
+                            </div>
+                            <div class="content-title">دوربین های مداربسته</div>
+                    </li>
+                    <li class="col-sm-3">
+                            <div class="content-imgs">
+                                <img class="img-responsive" src="assets/images/wireless.png" alt="دوربین های مداربسته">
+                                <img class="img-responsive" src="assets/images/wireless-hover.png" alt="دوربین های مداربسته" >
+                            </div>
+                            <div class="content-title">دوربین های مداربسته</div>
+                    </li>
+                    <li class="col-sm-3">
+                            <div class="content-imgs">
+                                <img class="img-responsive" src="assets/images/products.png" alt="دوربین های مداربسته">
+                                <img class="img-responsive" src="assets/images/products-hover.png" alt="دوربین های مداربسته" >
+                            </div>
+                            <div class="content-title">دوربین های مداربسته</div>
+                    </li>
+                    <li class="col-sm-3">
+                            <div class="content-imgs">
+                                <img class="img-responsive" src="assets/images/cv.png" alt="دوربین های مداربسته">
+                                <img class="img-responsive" src="assets/images/cv-hover.png" alt="دوربین های مداربسته" >
+                            </div>
+                            <div class="content-title">دوربین های مداربسته</div>
+                    </li>
+                    <li class="col-sm-3">
+                        <div class="content-imgs">
+                            <img class="img-responsive" src="assets/images/about.png" alt="دوربین های مداربسته">
+                            <img class="img-responsive" src="assets/images/about-hover.png" alt="دوربین های مداربسته" >
+                        </div>
+                        <div class="content-title">دوربین های مداربسته</div>
+                    </li>
+                    <li class="col-sm-3">
+                            <div class="content-imgs">
+                                <img class="img-responsive" src="assets/images/contact.png" alt="دوربین های مداربسته">
+                                <img class="img-responsive" src="assets/images/contact-hover.png" alt="دوربین های مداربسته" >
+                            </div>
+                            <div class="content-title">دوربین های مداربسته</div>
+                    </li>
                 </ul>
             </div>
                 
         </section>
 
         <!-- products -->
-        <section class="product__container">
+        <section class="products__container">
             <div class="container">
                 <div class="row">
-                        <h2>محصولات</h2>
+                    <h2>محصولات</h2>
+                    <hr />
+                    <div>
+                        ماژول خود را در این قسمت قرار دهید
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                 </div>
             </div>
         </section>
@@ -139,13 +201,31 @@
         <div class="container">
             <div class="row">
                 <section class="col-sm-6">
-                    <div>
-                        footer section 1
-                    </div>
+                    <a href="#"><img src="assets/images/footer-logo.png" alt=""></a>
+                    <nav>
+                        <ul>
+                            <li><a href="#">صفحه نخست</a></li>
+                            <li><a href="#">درباره ما</a></li>
+                            <li><a href="#">تماس با ما</a></li>
+                        </ul>
+                    </nav>
                 </section>
                 <section class="col-sm-6">
-                    <div>
-                        footer section 2
+                    <div class="copyright__container">
+                        <nav>
+                                <ul class="copyright-social">
+                                    <li><a href="#"><img src="assets/images/social.png" alt="facebook" class="facebook" title="facebook"></a></li>
+                                    <li><a href="#"><img src="assets/images/social.png" alt="twitter" class="twitter" title="twitter"></a></li>
+                                    <li><a href="#"><img src="assets/images/social.png" alt="gplus" class="gplus" title="gplus"></a></li>
+                                    <li><a href="#"><img src="assets/images/social.png" alt="youtube" class="youtube" title="youtube"></a></li>
+                                    <li><a href="#"><img src="assets/images/social.png" alt="rss" class="rss" title="rss"></a></li>
+                                </ul>
+                            </nav>
+                            <p>
+                                کلیه حقوق این وب سایت محفوظ می باشد<br />
+                                Copyright &copy; 2014 - All rights reserved.<br />
+                                طراحی سایت و بهینه سازی سایت توسط پورتال فراتک
+                            </p>
                     </div>
                 </section>
             </div>
@@ -157,5 +237,6 @@
 
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

@@ -6,6 +6,21 @@ body{
 
 main{
     border-top: 4px solid $primaryColor;
+    h2{
+        font-size: 18px;
+        border-bottom: 4px solid $primaryColor;
+        display: inline;
+    }
+    hr{
+        border: 1px solid #cfcfcf;
+        margin: 0px;
+        margin-top: 7px;
+    }
+
+    .products__container{
+        background-color: #f1f1f1;
+        padding: 20px 0;
+    }
 }
 
 .contents__container{
@@ -13,6 +28,63 @@ main{
         padding: 0px;
         li{
             list-style-type: none;
+            img{
+                width: 100%;
+                
+                &:nth-child(2){
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+
+                }
+            }
+            &:hover{
+                img:nth-child(1){
+                    display: none;
+
+                }
+                img:nth-child(2){
+                    position: unset;
+                    width: 100%;
+                    height: unset;
+                    -webkit-transition: 0.8s easeInSine;
+                    -moz-transition: 0.8s easeInSine;
+                    transition: 0.8s easeInSine;
+                    transition-property: box-shadow, backround-color;
+                    box-shadow: inset 0px 0px 200px 100px white;
+                    background-color: white;
+                    display: block;
+                    
+                }
+            }
         }
+        li:nth-child(1) .content-imgs img{
+            background-color: #fa6800;
+        }
+        li:nth-child(2) .content-imgs img{
+            background-color: #1ba1e2;
+        }
+        li:nth-child(3) .content-imgs img{
+            background-color: #9f00c4;
+        }
+        li:nth-child(4) .content-imgs img{
+            background-color: #d80073;
+        }
+        li:nth-child(5) .content-imgs img{
+            background-color: #b617d3;
+        }
+        li:nth-child(6) .content-imgs img{
+            background-color: #4fc736;
+        }
+        li:nth-child(7) .content-imgs img{
+            background-color: #fe9f09;
+        }
+        li:nth-child(8) .content-imgs img{
+            background-color: #c40023;
+        }
+
+
     }
 }
+
+
